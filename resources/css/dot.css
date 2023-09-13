@@ -1,0 +1,370 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+ 
+}
+/* Start of Top Title, Links and Hovers*/
+header{
+    background-image: url(https://www.popsci.com/uploads/2019/03/18/VGKX4SDXIPYFJDFE573THWYRJY.jpg?auto=webp);
+    height: 47.10rem;
+    margin-top: -2.2rem;
+}
+
+.park-title{
+    position: relative;
+    opacity: .8;
+    color: #262626;
+    font-size: 3.22rem;
+    margin-left: 2.7rem;
+    padding-top: 2rem;
+    font-family: 'EB Garamond', serif;
+    transition: color 320ms linear;
+}
+
+.park-title:hover{
+    color: #75A3BF;
+    opacity: 2.5;
+
+}
+
+/*Links and link Hovers*/
+.links{
+    position: relative;
+  margin-left: 41.7rem;
+  color: white;
+  bottom: 3rem;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.link-one{
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.link-two{
+display: inline-block;
+padding-left: 2rem;
+font-size: 1.3rem;
+}
+
+.link-three{
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.hovering{
+transition: color 220ms linear;
+}
+
+.hovering:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#ccdcec;
+}
+/*End of Links and Link Hovers*/
+.Pic-info{
+    color: white;
+    position: relative;
+    font-size: 1.10rem;
+    padding-top: 32rem;
+    margin-left: 1rem;
+    opacity: .9;
+}
+
+/*End of Top section*/
+
+/*Beginning of scroll down 1*/
+
+.line{
+    position: relative;
+    padding-bottom: -1rem;
+    border: 4px solid #262626;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    
+}
+
+.about{
+    position: relative;
+    margin-left: 9.3rem;
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+}
+/*START OF THE GRID*/
+.pic-grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.park-text{
+    font-size: 1.40rem;
+    font-family: 'Gothic A1', sans-serif;
+    line-height: 3.2rem;
+    margin-left: 3.2rem;
+    margin-top: 6.2rem;
+    color: #262626;
+  }
+
+.pic-one{
+    margin-left: 7rem;
+
+}
+/*END OF ABOUT AND GRID*/
+
+/* BEGINNING OF GLACIAR SECTION*/
+.glacier{
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+    margin-left: 30rem;
+}
+.glacier-pic{
+    margin-left: 5rem;
+}
+
+.glacier-words{
+    font-size: 1.40rem;
+    margin-left: 9rem;
+    color: #262626;
+    font-family: 'Gothic A1', sans-serif;
+    line-height: 2rem;
+}
+.inside{
+    margin-left: 13rem;
+    font-size: 1.57rem;
+    color: #262626;
+    }
+/*END OF THE GLACIER SECTION */
+
+/*THE NORTHERN TER SECTION*/
+
+.north-title{
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+    text-align: right;
+    margin-right: 12rem;
+}
+
+.north-grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.north-words{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.40rem;
+    line-height: 3.2rem;
+    color: #262626;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.bold-north{
+    margin-left: 7rem;
+}
+
+.north-img{
+    margin-left: 1rem;
+}
+/*END OF THE NORTH TER SECTION*/
+
+/*START OF SOUTH TER SECTION*/
+.south-title{
+    margin-left: 5rem;
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+}
+
+.icergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icewords{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.40rem;
+    line-height: 3.2rem;
+    color: #262626;
+}
+.icepic{
+    margin-left: 8rem;
+}
+.icetitle{
+   margin-left: 9rem;
+   font-size: 1.50rem;
+
+}
+/*END OF THE ICE CAVES SECTION*/
+
+/*START OF THE RAINDEER*/
+
+.deer{
+    font-size: 3.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #262626;
+    margin-left: 1.3rem;
+}
+.deargrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.deerpic{
+    margin-left: 1.3rem;
+
+}
+.deerwords{
+    margin-top: 4rem;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.40rem;
+    line-height: 3.3rem;
+    color: #262626;
+}
+/*THE END OF THE SOUTH AND RAINDEER*/
+
+/*START OF THE WEST*/
+.west-title{
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+    margin-left: 5rem ;
+}
+
+.west-pic{
+    margin-left: 9rem;
+}
+
+.lake-words{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.40rem;
+    color: #262626;
+    line-height: 2.4rem;
+    margin-left: 8rem;
+}
+
+.side{
+    margin-left: 12rem;
+    font-size: 1.57rem;
+}
+.side-two{
+    margin-left: .5rem;
+}
+/*END OF THE WEST SECTION*/
+
+/*START OF THE EAST SECTION*/
+
+.east-title{
+    margin-left: 2rem;
+    font-size: 4.2rem;
+    font-family: 'EB Garamond', serif;
+    color: #75A3BF;
+}
+.east-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.east-pic{
+    margin-left: 5rem;
+}
+
+.east-words{
+    margin-top: 2.5rem;
+    margin-left: 2.3rem;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.40rem;
+    color: #262626;
+    line-height: 3.2rem;
+    padding-bottom: 3.29%;
+    margin-bottom: 0px;
+}
+
+.east-center{
+font-size: 1.57rem;
+}
+
+/*END OF THE EAST TER SECTION*/
+
+/*START OF THE FOOTER*/
+.wholeflex{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    color: whitesmoke;
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+    background-color: #262626;
+  
+}
+
+.headword{
+    font-family: 'EB Garamond', serif;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    color: whitesmoke;
+    font-size: 3.7rem;
+    transition: color 320ms linear;
+}
+.headword:hover{
+    color: #B8C9D6;
+}
+
+.hours{
+padding-right: 12rem;
+}
+
+.wholeflex{
+    margin-top: 4em;
+}
+.p{
+    line-height: 3rem;
+font-size: 1.6rem;
+    list-style: none;
+    font-family: 'Gothic A1', sans-serif;
+
+}
+.contact{
+    padding-right: 4rem;
+}
+
+.c{
+margin-left: 2.3rem;
+font-family: 'EB Garamond', serif;
+}
+
+.h{
+    margin-left: 4rem;
+    font-family: 'EB Garamond', serif;
+}
+
+.t{
+    font-family: 'EB Garamond', serif;
+}
+
+.p-2{
+    line-height: 3rem;
+    font-size: 1.6rem;
+        list-style: none;
+        font-family: 'Gothic A1', sans-serif; 
+        transition: color 320ms linear;
+}
+
+.p-2:hover{
+    cursor: pointer;
+    color: #B8C9D6;
+}
